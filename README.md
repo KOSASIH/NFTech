@@ -1,4 +1,5 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/kosasih/nftech/badge)](https://www.codefactor.io/repository/github/kosasih/nftech)
+[![njsscan sarif](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml)
 [![DeepSource](https://deepsource.io/gh/KOSASIH/NFTech.svg/?label=active+issues&show_trend=true&token=pLHTyfSUYm1wy93iUXY2enzS)](https://deepsource.io/gh/KOSASIH/NFTech/?ref=repository-badge)
 [![Deploy static content to Pages](https://github.com/KOSASIH/NFTech/actions/workflows/pages.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/pages.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KOSASIH/NFTech/main)
