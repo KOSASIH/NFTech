@@ -1,3 +1,5 @@
+[![DeepSource](https://deepsource.io/gh/KOSASIH/NFTech.svg/?label=active+issues&show_trend=true&token=pLHTyfSUYm1wy93iUXY2enzS)](https://deepsource.io/gh/KOSASIH/NFTech/?ref=repository-badge)
+
 # NFTech
 Neurofibromatosis prevention medical technology system supported by Artificial Intelligence (AI)
 
