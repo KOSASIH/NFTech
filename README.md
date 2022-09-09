@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/kosasih/nftech/badge)](https://www.codefactor.io/repository/github/kosasih/nftech)
 [![DeepSource](https://deepsource.io/gh/KOSASIH/NFTech.svg/?label=active+issues&show_trend=true&token=pLHTyfSUYm1wy93iUXY2enzS)](https://deepsource.io/gh/KOSASIH/NFTech/?ref=repository-badge)
 [![Deploy static content to Pages](https://github.com/KOSASIH/NFTech/actions/workflows/pages.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/pages.yml)
 
