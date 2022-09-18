@@ -3,6 +3,7 @@
 [![CI](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml)
 [![DeepSource](https://deepsource.io/gh/KOSASIH/NFTech.svg/?label=active+issues&show_trend=true&token=pLHTyfSUYm1wy93iUXY2enzS)](https://deepsource.io/gh/KOSASIH/NFTech/?ref=repository-badge)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KOSASIH/NFTech/main)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ff551c0-644d-482e-9b0b-7d0a82aaf3a6/deploy-status)](https://app.netlify.com/sites/nftech/deploys)
 
 # NFTech
 
