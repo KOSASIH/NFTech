@@ -1,4 +1,3 @@
-[![Lint Code Base](https://github.com/KOSASIH/NFTech/actions/workflows/super-linter.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/super-linter.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/kosasih/nftech/badge)](https://www.codefactor.io/repository/github/kosasih/nftech)
 [![njsscan sarif](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml)
 [![CI](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml)
