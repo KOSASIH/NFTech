@@ -63,8 +63,8 @@ NFTech develops Neurofibromatosis prevention medical technology system supported
 
 # Jupyter Notebook
 
-1. [NFTech XGBoost](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/5815e5d3-0851-43e3-ac69-2c295d379178/view?access_token=0d339af91043575772ed88d37a650eec7059e0b5d468950253f1a3bd292bb926) 
+1. [NFTech XGBoost](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/5815e5d3-0851-43e3-ac69-2c295d379178/view?access_token=0d339af91043575772ed88d37a650eec7059e0b5d468950253f1a3bd292bb926)
 
-2. [N fTech XGBoost Classify](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/45ac3a02-82b1-43b5-a506-4b0a950ca457/view?access_token=1c3ae35ad84bdfea3c98a64a7e4f4025b3bd5fc5b7ce2fe86dda6af87aef2608) 
+2. [N fTech XGBoost Classify](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/45ac3a02-82b1-43b5-a506-4b0a950ca457/view?access_token=1c3ae35ad84bdfea3c98a64a7e4f4025b3bd5fc5b7ce2fe86dda6af87aef2608)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/NFTech">NFTech</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/KOSASIH">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
