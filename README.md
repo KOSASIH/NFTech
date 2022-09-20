@@ -13,9 +13,13 @@ Neurofibromatosis prevention medical technology system supported by Artificial I
 ## Mission
 
 1. NFTech is a medical technology company providing the only preventive treatment for Neurofibromatosis (NF), a genetic disease that causes brain tumors, eye problems and other health defects. NFTech's electroceutical approach uses patient's own.
+
 2. To alleviate the pain and suffering of patients with Neurofibromatosis type 2 (NF2) by developing a technology using Artificial Intelligence (AI) to predict the course of this debilitating disorder.
+
 3. To design and develop neurofibroma medical information management interactive AI diagnostic system.
+
 4. NFTech® is a medical technology portfolio including medical devices, software and data analytics products focused on neurofibromatosis (NF) and other rare disorders. Our products are designed to improve the lives of people living with NF as well as
+
 5. NFTech is a medical technology company that helps reduce the number of new neurofibromatosis cases by providing its patented screening technologies for early detection of NF1.
 
 #### Description
