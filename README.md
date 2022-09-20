@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/10d974c1aa514d9d9510495fcf268226)](https://app.codacy.com/gh/KOSASIH/NFTech?utm_source=github.com&utm_medium=referral&utm_content=KOSASIH/NFTech&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor](https://www.codefactor.io/repository/github/kosasih/nftech/badge)](https://www.codefactor.io/repository/github/kosasih/nftech)
 [![njsscan sarif](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml)
 [![CI](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml)
