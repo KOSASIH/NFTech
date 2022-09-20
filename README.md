@@ -1,7 +1,6 @@
 ![Profile View Counter](https://komarev.com/ghpvc/?username=KOSASIH)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=KOSASIH&show_icons=true)
 
-
 [![CodeFactor](https://www.codefactor.io/repository/github/kosasih/nftech/badge)](https://www.codefactor.io/repository/github/kosasih/nftech)
 [![njsscan sarif](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/njsscan.yml)
 [![CI](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/NFTech-workflow.yml)
