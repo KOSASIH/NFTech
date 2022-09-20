@@ -10,7 +10,7 @@
 
 Neurofibromatosis prevention medical technology system supported by Artificial Intelligence (AI)
 
-# Mission
+## Mission
 
 1. NFTech is a medical technology company providing the only preventive treatment for Neurofibromatosis (NF), a genetic disease that causes brain tumors, eye problems and other health defects. NFTech's electroceutical approach uses patient's own.
 2. To alleviate the pain and suffering of patients with Neurofibromatosis type 2 (NF2) by developing a technology using Artificial Intelligence (AI) to predict the course of this debilitating disorder.
@@ -18,7 +18,7 @@ Neurofibromatosis prevention medical technology system supported by Artificial I
 4. NFTech® is a medical technology portfolio including medical devices, software and data analytics products focused on neurofibromatosis (NF) and other rare disorders. Our products are designed to improve the lives of people living with NF as well as
 5. NFTech is a medical technology company that helps reduce the number of new neurofibromatosis cases by providing its patented screening technologies for early detection of NF1.
 
-# Description
+#### Description
 
 NFTech is a comprehensive, risk-focused medical technology platform for the early detection of central nervous system (CNS) tumors (craniopharyngiomas and neurofibromas) in children — also known as Neurofibromatosis Type 1 (NF1). The NFTech AI/ML algorithms are trained on more than 100 clinical features derived from MRIs, CTs, PET scans and genetic data. They automatically flag subtle signs of these tumors, which can be difficult for clinicians to identify on their own due to their small size and unique location in the brain.
 
@@ -44,7 +44,7 @@ But what if we told you that there was a new medical technology system that coul
 
 That's [NFTech], a company that has developed a medical technology system supported by artificial intelligence to help prevent neurofibromatosis.
 
-# Value Proposition
+#### Value Proposition
 
 NFTech develops Neurofibromatosis prevention medical technology system supported by Artificial Intelligence (AI): Our project is a platform capable of providing a preventive, personalized disease management program, which will help manage the whole NF1 patient's life with NFD symptom prediction and medical AI-based medical decision support.
 
