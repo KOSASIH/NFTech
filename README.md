@@ -11,6 +11,10 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e8b12e07f3f34c2fa29d6ac64c41c240)](https://www.codacy.com/gh/KOSASIH/NFTech/dashboard?utm_source=github.com&utm_medium=referral&utm_content=KOSASIH/NFTech&utm_campaign=Badge_Grade)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/KOSASIH/NFTech/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/KOSASIH/NFTech/tree/main)
 [![Dependency Review](https://github.com/KOSASIH/NFTech/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/dependency-review.yml)
+[![GitHub license](https://img.shields.io/github/license/KOSASIH/NFTech)](https://github.com/KOSASIH/NFTech/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/KOSASIH/NFTech)](https://github.com/KOSASIH/NFTech/issues)
+[![GitHub forks](https://img.shields.io/github/forks/KOSASIH/NFTech)](https://github.com/KOSASIH/NFTech/network)
+[![GitHub stars](https://img.shields.io/github/stars/KOSASIH/NFTech)](https://github.com/KOSASIH/NFTech/stargazers)
 
 # NFTech
 
