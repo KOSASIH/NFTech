@@ -17,7 +17,7 @@
 
 # NFTech
 
-Neurofibromatosis prevention medical technology system supported by Artificial Intelligence (AI)
+The NFTech prevention system is a medical technology platform supported by artificial intelligence (AI) and machine learning algorithms. 
 
 ## Mission
 
