@@ -9,6 +9,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2ff551c0-644d-482e-9b0b-7d0a82aaf3a6/deploy-status)](https://app.netlify.com/sites/nftech/deploys)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e8b12e07f3f34c2fa29d6ac64c41c240)](https://www.codacy.com/gh/KOSASIH/NFTech/dashboard?utm_source=github.com&utm_medium=referral&utm_content=KOSASIH/NFTech&utm_campaign=Badge_Grade)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/KOSASIH/NFTech/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/KOSASIH/NFTech/tree/main)
+[![Lint Code Base](https://github.com/KOSASIH/NFTech/actions/workflows/super-linter.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/super-linter.yml)
 [![Dependency Review](https://github.com/KOSASIH/NFTech/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/KOSASIH/NFTech/actions/workflows/dependency-review.yml)
 [![GitHub license](https://img.shields.io/github/license/KOSASIH/NFTech)](https://github.com/KOSASIH/NFTech/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/KOSASIH/NFTech)](https://github.com/KOSASIH/NFTech/issues)
