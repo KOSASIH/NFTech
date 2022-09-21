@@ -17,7 +17,7 @@
 
 # NFTech
 
-The NFTech prevention system is a medical technology platform supported by artificial intelligence (AI) and machine learning algorithms. 
+The NFTech prevention system is a medical technology platform supported by artificial intelligence (AI) and machine learning algorithms.
 
 ## Mission
 
