@@ -22,16 +22,13 @@
 [![GitHub release](https://img.shields.io/github/release/KOSASIH/NFTech?include_prereleases=&sort=semver&color=blue)](https://github.com/KOSASIH/NFTech/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-
 [![GitHub release](https://img.shields.io/github/release/KOSASIH/NFTech?include_prereleases=&sort=semver&color=blue)](https://github.com/KOSASIH/NFTech/releases/)
-
 
 <div align="center">
 
 [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://kosasih.github.io/NFTech/)
 
 </div>
-
 
 ## License
 
