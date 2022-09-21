@@ -18,8 +18,13 @@
 [![KOSASIH - NFTech](https://img.shields.io/static/v1?label=KOSASIH&message=NFTech&color=blue&logo=github)](https://github.com/KOSASIH/NFTech "Go to GitHub repo")
 [![stars - NFTech](https://img.shields.io/github/stars/KOSASIH/NFTech?style=social)](https://github.com/KOSASIH/NFTech)
 [![forks - NFTech](https://img.shields.io/github/forks/KOSASIH/NFTech?style=social)](https://github.com/KOSASIH/NFTech)
+
 [![GitHub release](https://img.shields.io/github/release/KOSASIH/NFTech?include_prereleases=&sort=semver&color=blue)](https://github.com/KOSASIH/NFTech/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+
+[![GitHub release](https://img.shields.io/github/release/KOSASIH/NFTech?include_prereleases=&sort=semver&color=blue)](https://github.com/KOSASIH/NFTech/releases/)
+
 
 <div align="center">
 
@@ -27,13 +32,6 @@
 
 </div>
 
-## Documentation
-
-<div align="center">
-
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
-
-</div>
 
 ## License
 
