@@ -19,7 +19,6 @@
 [![stars - NFTech](https://img.shields.io/github/stars/KOSASIH/NFTech?style=social)](https://github.com/KOSASIH/NFTech)
 [![forks - NFTech](https://img.shields.io/github/forks/KOSASIH/NFTech?style=social)](https://github.com/KOSASIH/NFTech)
 [![GitHub release](https://img.shields.io/github/release/KOSASIH/NFTech?include_prereleases=&sort=semver&color=blue)](https://github.com/KOSASIH/NFTech/releases/)
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://kosasih.github.io/NFTech/)
 
 ## License
 
