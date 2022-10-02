@@ -1,6 +1,6 @@
 {
   "name": "Nftech",
-  "description": "",
+  "description": "Neurofibromatosis prevention medical technology system supported by Artificial Intelligence (AI) and machine learning algorithms",
   "spectralExtends": [],
   "formats": ["oas2", "oas3", "oas3.0", "oas3.1"],
   "aliases": {},
