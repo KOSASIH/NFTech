@@ -11,4 +11,5 @@ The NFTech Project owner is not responsible for any form of misuse.
 Thus, I have made this provision and hope that it is observed and obeyed in accordance with the provisions of the legislation in force in their respective countries.
 
 Owner
+
 KOSASIH
