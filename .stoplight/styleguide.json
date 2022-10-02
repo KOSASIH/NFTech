@@ -1220,7 +1220,6 @@
   "library": {
     "cHJqOjEyMzU4Ng@35": {
       "description": "## Stoplight Style Guide\n\nStoplight's built-in style guide contains style and validation rules for OAS (OpenAPI specification) 2 and 3.x. \n\nThis built-in style guide is always initially enabled for Stoplight API projects. \n\nYou can:\n\n- Use the style guide as-is to [automatically lint](https://meta.stoplight.io/docs/platform/7975f76a794c4-validation-and-linting) your API files\n- [Disable individual rules](https://meta.stoplight.io/docs/platform/3f80fd36750e3-disable-inherited-rules)  that do not follow your organization's standards\n- [Disable the entire style guide](https://meta.stoplight.io/docs/platform/ff8502dfbe156-enable-a-style-guide#disable-a-style-guide)\n- [Reuse and customtize rules](https://meta.stoplight.io/docs/platform/2331c5241ddfc) to meet your needs\n\n> For best results, never disable the `oas2-schema` and `oas3-schema` rules. These rules validate the structure of your API document against the OpenAPI specification.",
-      "formats": ["oas2", "oas3", "oas3.0", "oas3.1"],
       "aliases": {
         "API_Document": {
           "description": "The complete API specification document. This can be used to target any part of the OpenAPI document using **field**.\n\n*Use this if you don't find specific targets that cater to your usecase.* ",

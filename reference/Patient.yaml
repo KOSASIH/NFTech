@@ -1,21 +1,11 @@
 openapi: 3.1.0
 x-stoplight:
-  id: rsiaakmgb2zgd
+  id: cxcl05ys9gewm
 info:
-  title: Technologies
+  title: Patient
   version: "1.0"
-  summary: Technologies
-  description: Service program interface that serves to display information about various kinds of supporting technology.
-  contact:
-    name: KOSASIH
-    email: kosasihg88@gmail.com
-    url: www.linkedin.com/in/kosasih-81b46b5a
-  license:
-    name: MIT
-    url: "https://github.com/KOSASIH/NFTech/blob/main/LICENSE"
 servers:
   - url: "http://localhost:3000"
-    description: KOSASIH
 paths:
   "/users/{userId}":
     parameters:
@@ -197,5 +187,3 @@ components:
         - lastName
         - email
         - emailVerified
-tags:
-  - name: Healthcare

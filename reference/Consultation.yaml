@@ -1,11 +1,11 @@
 openapi: 3.1.0
 x-stoplight:
-  id: rsiaakmgb2zgd
+  id: dqivuamxs9vi8
 info:
-  title: Technologies
+  title: Consultation
   version: "1.0"
-  summary: Technologies
-  description: Service program interface that serves to display information about various kinds of supporting technology.
+  summary: "Consultation "
+  description: An interface program service that provides a consultation room for patients and doctors or other medical personnel.
   contact:
     name: KOSASIH
     email: kosasihg88@gmail.com
@@ -198,4 +198,4 @@ components:
         - email
         - emailVerified
 tags:
-  - name: Healthcare
+  - name: Cancer
