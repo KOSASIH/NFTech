@@ -2,9 +2,9 @@ openapi: 3.1.0
 x-stoplight:
   id: 6kyq0umko85gj
 info:
-  title: Doctor
+  title: Doctors
   version: '1.0'
-  summary: Doctor
+  summary: Doctors
   description: Service interface program that provides information on medical personnel on duty and doctors who can be contacted.
   contact:
     name: KOSASIH
