@@ -2,10 +2,10 @@ openapi: 3.1.0
 x-stoplight:
   id: aoeuvsbpqyon8
 info:
-  title: Hospitals
+  title: Hospital
   version: '1.0'
   description: An interface program service that provides services for the location of the nearest referral hospital and clinic for follow-up health checks and at the same time registering patient care.
-  summary: Hospitals
+  summary: Hospital
   contact:
     name: KOSASIH
     email: kosasihg88@gmail.com
