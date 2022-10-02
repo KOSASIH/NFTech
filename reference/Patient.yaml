@@ -4,8 +4,19 @@ x-stoplight:
 info:
   title: Patient
   version: "1.0"
+  summary: Patient
+  description: Service program interface for patients
+  contact:
+    name: KOSASIH
+    email: kosasihg88@gmail.com
+    url: www.linkedin.com/in/kosasih-81b46b5a
+  termsOfService: "https://github.com/KOSASIH/NFTech/blob/main/docs/term.md"
+  license:
+    url: "https://github.com/KOSASIH/NFTech/blob/main/LICENSE"
+    name: MIT
 servers:
   - url: "http://localhost:3000"
+    description: KOSASIH
 paths:
   "/users/{userId}":
     parameters:
@@ -187,3 +198,5 @@ components:
         - lastName
         - email
         - emailVerified
+tags:
+  - name: Cancer
