@@ -1497,9 +1497,7 @@
   ],
   "library": {
     "cHJqOjEyMzU4Ng@35": {
-      "name": "Stoplight Style Guide",
       "description": "## Stoplight Style Guide\n\nStoplight's built-in style guide contains style and validation rules for OAS (OpenAPI specification) 2 and 3.x. \n\nThis built-in style guide is always initially enabled for Stoplight API projects. \n\nYou can:\n\n- Use the style guide as-is to [automatically lint](https://meta.stoplight.io/docs/platform/7975f76a794c4-validation-and-linting) your API files\n- [Disable individual rules](https://meta.stoplight.io/docs/platform/3f80fd36750e3-disable-inherited-rules)  that do not follow your organization's standards\n- [Disable the entire style guide](https://meta.stoplight.io/docs/platform/ff8502dfbe156-enable-a-style-guide#disable-a-style-guide)\n- [Reuse and customtize rules](https://meta.stoplight.io/docs/platform/2331c5241ddfc) to meet your needs\n\n> For best results, never disable the `oas2-schema` and `oas3-schema` rules. These rules validate the structure of your API document against the OpenAPI specification.",
-      "spectralExtends": [],
       "formats": [
         "oas2",
         "oas3",
@@ -2812,6 +2810,8 @@
           ]
         }
       },
+      "spectralExtends": [],
+      "name": "Stoplight Style Guide",
       "x-embeddedFunctions": [
         {
           "id": "7vlMlWLJeLfv6M_PHO36r",
