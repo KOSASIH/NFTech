@@ -13,6 +13,7 @@ info:
   license:
     name: MIT
     url: www.linkedin.com/in/kosasih-81b46b5a
+  termsOfService: 'https://github.com/KOSASIH/NFTech/blob/main/docs/term.md'
 servers:
   - url: 'http://localhost:3000'
     description: KOSASIH
