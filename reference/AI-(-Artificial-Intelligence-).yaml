@@ -3,7 +3,7 @@ x-stoplight:
   id: a96k3shk3bh52
 info:
   title: AI ( Artificial Intelligence )
-  version: '1.0'
+  version: "1.0"
   summary: AI
   description: Service program interface that serves to display information about the various types of AI technologies used.
   contact:
@@ -12,13 +12,13 @@ info:
     url: www.linkedin.com/in/kosasih-81b46b5a
   license:
     name: MIT
-    url: 'https://github.com/KOSASIH/NFTech/blob/main/LICENSE'
-  termsOfService: 'https://github.com/KOSASIH/NFTech/blob/main/docs/term.md'
+    url: "https://github.com/KOSASIH/NFTech/blob/main/LICENSE"
+  termsOfService: "https://github.com/KOSASIH/NFTech/blob/main/docs/term.md"
 servers:
-  - url: 'http://localhost:3000'
+  - url: "http://localhost:3000"
     description: KOSASIH
 paths:
-  '/users/{userId}':
+  "/users/{userId}":
     parameters:
       - schema:
           type: integer
@@ -30,12 +30,12 @@ paths:
       summary: Get User Info by User ID
       tags: []
       responses:
-        '200':
+        "200":
           description: User Found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/User'
+                $ref: "#/components/schemas/User"
               examples:
                 Get User Alice Smith:
                   value:
@@ -43,10 +43,10 @@ paths:
                     firstName: Alice
                     lastName: Smith
                     email: alice.smith@gmail.com
-                    dateOfBirth: '1997-10-31'
+                    dateOfBirth: "1997-10-31"
                     emailVerified: true
-                    signUpDate: '2019-08-24'
-        '404':
+                    signUpDate: "2019-08-24"
+        "404":
           description: User Not Found
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
@@ -54,12 +54,12 @@ paths:
       summary: Update User Information
       operationId: patch-users-userId
       responses:
-        '200':
+        "200":
           description: User Updated
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/User'
+                $ref: "#/components/schemas/User"
               examples:
                 Updated User Rebecca Baker:
                   value:
@@ -67,12 +67,12 @@ paths:
                     firstName: Rebecca
                     lastName: Baker
                     email: rebecca@gmail.com
-                    dateOfBirth: '1985-10-02'
+                    dateOfBirth: "1985-10-02"
                     emailVerified: false
-                    createDate: '2019-08-24'
-        '404':
+                    createDate: "2019-08-24"
+        "404":
           description: User Not Found
-        '409':
+        "409":
           description: Email Already Taken
       description: Update the information of an existing user.
       requestBody:
@@ -87,7 +87,7 @@ paths:
                   type: string
                 email:
                   type: string
-                  description: 'If a new email is given, the user''s email verified property will be set to false.'
+                  description: "If a new email is given, the user's email verified property will be set to false."
                 dateOfBirth:
                   type: string
             examples:
@@ -100,19 +100,19 @@ paths:
               Update Last Name & Date of Birth:
                 value:
                   lastName: Baker
-                  dateOfBirth: '1985-10-02'
+                  dateOfBirth: "1985-10-02"
         description: Patch user properties to update.
   /user:
     post:
       summary: Create New User
       operationId: post-user
       responses:
-        '200':
+        "200":
           description: User Created
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/User'
+                $ref: "#/components/schemas/User"
               examples:
                 New User Bob Fellow:
                   value:
@@ -120,12 +120,12 @@ paths:
                     firstName: Bob
                     lastName: Fellow
                     email: bob.fellow@gmail.com
-                    dateOfBirth: '1996-08-24'
+                    dateOfBirth: "1996-08-24"
                     emailVerified: false
-                    createDate: '2020-11-18'
-        '400':
+                    createDate: "2020-11-18"
+        "400":
           description: Missing Required Information
-        '409':
+        "409":
           description: Email Already Taken
       requestBody:
         content:
@@ -153,7 +153,7 @@ paths:
                   firstName: Bob
                   lastName: Fellow
                   email: bob.fellow@gmail.com
-                  dateOfBirth: '1996-08-24'
+                  dateOfBirth: "1996-08-24"
         description: Post the necessary fields for the API to create a new user.
       description: Create a new user.
 components:
@@ -161,15 +161,15 @@ components:
     User:
       title: User
       type: object
-      description: ''
+      description: ""
       examples:
         - id: 142
           firstName: Alice
           lastName: Smith
           email: alice.smith@gmail.com
-          dateOfBirth: '1997-10-31'
+          dateOfBirth: "1997-10-31"
           emailVerified: true
-          signUpDate: '2019-08-24'
+          signUpDate: "2019-08-24"
       properties:
         id:
           type: integer
@@ -184,7 +184,7 @@ components:
         dateOfBirth:
           type: string
           format: date
-          example: '1997-10-31'
+          example: "1997-10-31"
         emailVerified:
           type: boolean
           description: Set to true if the user's email has been verified.
