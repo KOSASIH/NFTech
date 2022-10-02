@@ -1,4 +1,5 @@
 # Terms and Privacy Policy
+
 As terms and conditions of use, here I make provisions that cover the entire use of Project NFTech:
 
 - Any use and/or utilization of Project NFTech by the general public will be subject to applicable laws and regulations.
