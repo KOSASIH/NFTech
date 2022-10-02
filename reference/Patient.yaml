@@ -1,21 +1,11 @@
 openapi: 3.1.0
 x-stoplight:
-  id: 6kyq0umko85gj
+  id: cxcl05ys9gewm
 info:
-  title: Doctor
+  title: Patient
   version: '1.0'
-  summary: Doctor
-  description: Service interface program that provides information on medical personnel on duty and doctors who can be contacted.
-  contact:
-    name: KOSASIH
-    email: kosasihg88@gmail.com
-    url: www.linkedin.com/in/kosasih-81b46b5a
-  license:
-    name: MIT
-    url: 'https://github.com/KOSASIH/NFTech/blob/main/LICENSE'
 servers:
   - url: 'http://localhost:3000'
-    description: KOSASIH
 paths:
   '/users/{userId}':
     parameters:
@@ -197,5 +187,3 @@ components:
         - lastName
         - email
         - emailVerified
-tags:
-  - name: Cancer
