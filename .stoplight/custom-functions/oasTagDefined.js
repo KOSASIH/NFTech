@@ -1,21 +1,12 @@
 // This function will check an API doc to verify that any tag that appears on
 // an operation is also present in the global tags array.
-import { isPlainObject } from "@stoplight/json";
+import { isPlainObject } from '@stoplight/json';
 
 function isObject(value) {
-  return value !== null && typeof value === "object";
+  return value !== null && typeof value === 'object';
 }
 
-const validOperationKeys = [
-  "get",
-  "head",
-  "post",
-  "put",
-  "patch",
-  "delete",
-  "options",
-  "trace",
-];
+const validOperationKeys = ['get', 'head', 'post', 'put', 'patch', 'delete', 'options', 'trace'];
 
 function* getAllOperations(paths) {
   if (!isPlainObject(paths)) {
@@ -23,8 +14,8 @@ function* getAllOperations(paths) {
   }
 
   const item = {
-    path: "",
-    operation: "",
+    path: '',
+    operation: '',
     value: null,
   };
 
@@ -37,10 +28,7 @@ function* getAllOperations(paths) {
     item.path = path;
 
     for (const operation of Object.keys(operations)) {
-      if (
-        !isPlainObject(operations[operation]) ||
-        !validOperationKeys.includes(operation)
-      ) {
+      if (!isPlainObject(operations[operation]) || !validOperationKeys.includes(operation)) {
         continue;
       }
 
@@ -52,7 +40,7 @@ function* getAllOperations(paths) {
   }
 }
 
-export const oasTagDefined = (targetVal) => {
+export const oasTagDefined = targetVal => {
   if (!isObject(targetVal)) return;
   const results = [];
 
@@ -60,7 +48,7 @@ export const oasTagDefined = (targetVal) => {
 
   if (Array.isArray(targetVal.tags)) {
     for (const tag of targetVal.tags) {
-      if (isObject(tag) && typeof tag.name === "string") {
+      if (isObject(tag) && typeof tag.name === 'string') {
         globalTags.push(tag.name);
       }
     }
@@ -80,8 +68,8 @@ export const oasTagDefined = (targetVal) => {
     for (const [i, tag] of tags.entries()) {
       if (!globalTags.includes(tag)) {
         results.push({
-          message: "Operation tags must be defined in global tags.",
-          path: ["paths", path, operation, "tags", i],
+          message: 'Operation tags must be defined in global tags.',
+          path: ['paths', path, operation, 'tags', i],
         });
       }
     }

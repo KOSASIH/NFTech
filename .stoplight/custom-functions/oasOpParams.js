@@ -1,5 +1,5 @@
 function isObject(value) {
-  return value !== null && typeof value === "object";
+  return value !== null && typeof value === 'object';
 }
 
 function computeFingerprint(param) {
@@ -36,7 +36,7 @@ export const oasOpParams = (params, _opts, { path }) => {
     if (!isObject(param)) continue;
 
     // skip params that are refs
-    if ("$ref" in param) continue;
+    if ('$ref' in param) continue;
 
     // Operations must have unique `name` + `in` parameters.
     const fingerprint = computeFingerprint(param);
@@ -46,7 +46,7 @@ export const oasOpParams = (params, _opts, { path }) => {
       list.push(fingerprint);
     }
 
-    if (typeof param.in === "string" && param.in in count) {
+    if (typeof param.in === 'string' && param.in in count) {
       count[param.in].push(index);
     }
   }
@@ -54,8 +54,7 @@ export const oasOpParams = (params, _opts, { path }) => {
   if (duplicates.length > 0) {
     for (const i of duplicates) {
       results.push({
-        message:
-          'A parameter in this operation already exposes the same combination of "name" and "in" values.',
+        message: 'A parameter in this operation already exposes the same combination of "name" and "in" values.',
         path: [...path, i],
       });
     }
@@ -63,16 +62,14 @@ export const oasOpParams = (params, _opts, { path }) => {
 
   if (count.body.length > 0 && count.formData.length > 0) {
     results.push({
-      message:
-        'Operation must not have both "in:body" and "in:formData" parameters.',
+      message: 'Operation must not have both "in:body" and "in:formData" parameters.',
     });
   }
 
   if (count.body.length > 1) {
     for (let i = 1; i < count.body.length; i++) {
       results.push({
-        message:
-          'Operation must not have more than a single instance of the "in:body" parameter.',
+        message: 'Operation must not have more than a single instance of the "in:body" parameter.',
         path: [...path, count.body[i]],
       });
     }

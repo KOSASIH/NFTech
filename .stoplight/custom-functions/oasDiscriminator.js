@@ -1,5 +1,5 @@
 function isObject(value) {
-  return value !== null && typeof value === "object";
+  return value !== null && typeof value === 'object';
 }
 
 export const oasDiscriminator = (schema, _opts, { path }) => {
@@ -12,29 +12,23 @@ export const oasDiscriminator = (schema, _opts, { path }) => {
 
   if (!isObject(schema)) return;
 
-  if (typeof schema.discriminator !== "string") return;
+  if (typeof schema.discriminator !== 'string') return;
 
   const discriminatorName = schema.discriminator;
 
   const results = [];
 
-  if (
-    !isObject(schema.properties) ||
-    !Object.keys(schema.properties).some((k) => k === discriminatorName)
-  ) {
+  if (!isObject(schema.properties) || !Object.keys(schema.properties).some(k => k === discriminatorName)) {
     results.push({
       message: `The discriminator property must be defined in this schema.`,
-      path: [...path, "properties"],
+      path: [...path, 'properties'],
     });
   }
 
-  if (
-    !Array.isArray(schema.required) ||
-    !schema.required.some((n) => n === discriminatorName)
-  ) {
+  if (!Array.isArray(schema.required) || !schema.required.some(n => n === discriminatorName)) {
     results.push({
       message: `The discriminator property must be in the required property list.`,
-      path: [...path, "required"],
+      path: [...path, 'required'],
     });
   }
 
