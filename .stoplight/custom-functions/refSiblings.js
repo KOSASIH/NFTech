@@ -1,5 +1,5 @@
 function isObject(value) {
-  return value !== null && typeof value === 'object';
+  return value !== null && typeof value === "object";
 }
 
 function getParentValue(document, path) {
@@ -36,11 +36,11 @@ const refSiblings = (targetVal, opts, { document, path }) => {
   const actualObjPath = path.slice(0, -1);
 
   for (const key of keys) {
-    if (key === '$ref') {
+    if (key === "$ref") {
       continue;
     }
     results.push({
-      message: '$ref must not be placed next to any other properties',
+      message: "$ref must not be placed next to any other properties",
       path: [...actualObjPath, key],
     });
   }
