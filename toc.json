@@ -1,0 +1,59 @@
+{
+  "collapseTableOfContents": false,
+  "items": [
+    {
+      "type": "item",
+      "title": "Terms and Privacy Policy",
+      "uri": "/docs/term.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
+      "type": "item",
+      "title": "Technologies",
+      "uri": "/reference/Technologies.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AI ( Artificial Intelligence )",
+      "uri": "/reference/AI-(-Artificial-Intelligence-).yaml"
+    },
+    {
+      "type": "item",
+      "title": "ML ( Machine Learning )",
+      "uri": "/reference/ML-(-Machine-Learning-).yaml"
+    },
+    {
+      "type": "item",
+      "title": "Doctors",
+      "uri": "/reference/Doctors.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Drugs",
+      "uri": "/reference/Drugs.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Check Up Result",
+      "uri": "/reference/Check-Up-Result.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Hospitals",
+      "uri": "/reference/Hospitals.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Patient",
+      "uri": "/reference/Patient.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Consultation",
+      "uri": "/reference/Consultation.yaml"
+    }
+  ]
+}
