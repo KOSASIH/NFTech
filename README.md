@@ -40,7 +40,7 @@ The NFTech prevention system is a medical technology platform supported by artif
 
 5. NFTech is a medical technology company that helps reduce the number of new neurofibromatosis cases by providing its patented screening technologies for early detection of NF1.
 
-#### Description
+### Description
 
 NFTech is a comprehensive, risk-focused medical technology platform for the early detection of central nervous system (CNS) tumors (craniopharyngiomas and neurofibromas) in children — also known as Neurofibromatosis Type 1 (NF1). The NFTech AI/ML algorithms are trained on more than 100 clinical features derived from MRIs, CTs, PET scans and genetic data. They automatically flag subtle signs of these tumors, which can be difficult for clinicians to identify on their own due to their small size and unique location in the brain.
 
