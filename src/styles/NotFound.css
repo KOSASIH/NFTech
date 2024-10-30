@@ -1,0 +1,37 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.not-found h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: #e74c3c; /* Red color for the 404 */
+}
+
+.not-found h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.not-found p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.home-link {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.home-link:hover {
+    background-color: #2980b9;
+}
