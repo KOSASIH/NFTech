@@ -1,0 +1,53 @@
+/* index.css */
+
+/* Global Styles */
+html, body {
+    height: 100%;
+    font-family: var(--font-family);
+}
+
+/* Flexbox for Centering */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+/* Loader Styles */
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid var(--primary-color); /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+/* Keyframes for Loader Animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error Message Styles */
+.error-message {
+    color: var(--accent-color);
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
