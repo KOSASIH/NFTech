@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [status, setStatus] = useState(null);
+    const [error, setError] = useState(null);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -11,12 +12,24 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setStatus(null);
+        setError(null);
+
         // Simulate form submission
-        setStatus('Submitting...');
-        setTimeout(() => {
+        try {
+            setStatus('Submitting...');
+            // Here you would typically send the form data to your API
+            await new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    // Simulate success or failure
+                    Math.random() > 0.5 ? resolve() : reject(new Error('Submission failed'));
+                }, 2000);
+            });
             setStatus('Message sent successfully!');
-            setFormData({ name: '', email: '', message: '' });
-        }, 2000);
+            setFormData({ name: '', email: '', message: '' }); // Reset form
+        } catch (err) {
+            setError(err.message);
+        }
     };
 
     return (
@@ -57,4 +70,10 @@ const Contact = () => {
                 </div>
                 <button type="submit">Send Message</button>
             </form>
-            {
+            {status && <p className="status-message">{status}</p>}
+            {error && <p className="error-message">{error}</p>}
+        </div>
+    );
+};
+
+export default Contact;
