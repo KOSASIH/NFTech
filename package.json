@@ -1,0 +1,60 @@
+{
+  "name": "nftech",
+  "version": "1.0.0",
+  "description": "A medical technology system for Neurofibromatosis prevention, supported by AI and machine learning algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
+    "deploy": "netlify deploy --prod", // Command to deploy to Netlify
+    "analyze": "source-map-explorer 'build/static/js/*.js'" // Analyze bundle size
+  },
+  "keywords": [
+    "neurofibromatosis",
+    "medical technology",
+    "AI",
+    "machine learning",
+    "healthcare",
+    "react"
+  ],
+  "author": "KOSASIH",
+  "license": "MIT",
+  "homepage": "https://nftech.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KOSASIH/nftech.git"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "redux": "^4.1.0",
+    "react-redux": "^8.0.0",
+    "axios": "^0.21.1",
+    "styled-components": "^5.3.0",
+    "dotenv": "^10.0.0",
+    "chart.js": "^3.7.0", // For data visualization
+    "react-chartjs-2": "^3.0.0", // React wrapper for Chart.js
+    "tensorflow": "^2.8.0", // For machine learning capabilities
+    "brain.js": "^2.0.0", // For neural networks in JavaScript
+    "react-toastify": "^8.0.0" // For notifications
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/jest-dom": "^5.16.0",
+    "msw": "^0.35.0", // Mock Service Worker for API mocking
+    "source-map-explorer": "^2.5.2" // For analyzing bundle size
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
